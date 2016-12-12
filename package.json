@@ -1,0 +1,19 @@
+{
+  "name": "travis_ci",
+  "version": "1.0.0",
+  "description": "```   1.從GitHub下載專案(clone)。   2.進入資料夾。   3.Checkout到特定的版本。   4.執行before_install。   5.執行install。   6.執行before_script。   7.執行script。   8.執行after_success或after_failure。   9.執行after_script。 ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flameddd/Travis_CI_Practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flameddd/Travis_CI_Practice/issues"
+  },
+  "homepage": "https://github.com/flameddd/Travis_CI_Practice#readme"
+}
