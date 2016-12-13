@@ -4,7 +4,8 @@
   "description": "```   1.從GitHub下載專案(clone)。   2.進入資料夾。   3.Checkout到特定的版本。   4.執行before_install。   5.執行install。   6.執行before_script。   7.執行script。   8.執行after_success或after_failure。   9.執行after_script。 ```",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/istanbul/lib/cli.js cover ./node_modules/.bin/_mocha",
+    "coveralls": "cat ./coverages/lcov.info | ./node_modules/.bin/coveralls"
   },
   "repository": {
     "type": "git",

@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/flameddd/Travis_CI_Practice.svg?branch=master)](https://travis-ci.org/flameddd/Travis_CI_Practice)
-
+[![Coverage Status](https://travis-ci.org/flameddd/Travis_CI_Practice.svg?branch=master)](https://travis-ci.org/flameddd/Travis_CI_Practice)
 
 # Travis_CI_Practice
 #Travis CI的流程如下：

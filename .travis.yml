@@ -5,3 +5,16 @@ node_js:
   - "5.11"
   - "0.6"
   - "iojs"
+cache:
+	directories:
+  	- node_modules
+before_install:
+  	-npm install 
+  	-npm install istanbul mocha coveralls --save-dev 
+script:
+  	-npm test 
+  	-npm run dev
+  	-npm run build
+  	-npm run checkdir
+after_script:
+	-npm run coverage
