@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/flameddd/Travis_CI_Practice/issues"
   },
-  "homepage": "https://github.com/flameddd/Travis_CI_Practice#readme"
+  "homepage": "https://github.com/flameddd/Travis_CI_Practice#readme",
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
 }
