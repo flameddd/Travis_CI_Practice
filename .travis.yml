@@ -1,7 +1,7 @@
 #相關的空格不可以用tab來空！！
 language: node_js
 node_js:
-- "6"
+    - "6"
 cache:
     directories:
         - node_modules
