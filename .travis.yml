@@ -11,9 +11,9 @@ before_install:
     -npm install -g
     -npm install istanbul mocha coveralls --save-dev
 script:
-    -npm test 
+    -npm test
     -npm run dev
     -npm run build
     -npm run checkdir
 after_script:
-    -npm run coverage
+     -npm run coverage
